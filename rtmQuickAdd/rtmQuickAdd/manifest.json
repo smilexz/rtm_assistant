@@ -1,10 +1,11 @@
 {
   "name": "RTM Quick Add",
   "version": "1.0.0",
+  "manifest_version": 2,
   "description": "Add task to the RTM service",
   //"background_page": "background.html",
   "browser_action": {
-    "popup": "popup.html",
+    "default_popup": "popup.html",
     "default_icon": "favicon2.ico",
 	"default_title": "hi!"
   },
@@ -20,3 +21,4 @@
           "http://*/*"
   ]
 }
+
